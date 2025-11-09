@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1>My Portfolio</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="photo.jpg.jpg" alt="Profile Photo" />
+      <p>
+        Hello! I'm a web development student learning how to build clean and
+        simple websites using HTML and CSS. I enjoy creating responsive designs
+        and learning new web technologies.
+      </p>
+    </section>
+
+    <hr />
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <table>
+        <tr>
+          <th>Skill</th>
+          <th>Level</th>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>Intermediate</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>Intermediate</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>Beginner</td>
+        </tr>
+      </table>
+    </section>
+
+    <hr />
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <article>
+        <h3>🧮 Basic Calculator</h3>
+        <p>
+          A simple calculator built using HTML, CSS, and JavaScript that
+          performs basic operations like addition, subtraction, multiplication,
+          and division. It features neatly styled buttons, a display screen, and
+          responsive design. This project demonstrates layout design, button
+          styling, and basic interactivity through simple event handling.
+        </p>
+      </article>
+      <article>
+        <h3>✅ To-Do List App</h3>
+        <p>
+          A clean and functional To-Do List web app where users can add,
+          complete, or remove daily tasks. Created using HTML and CSS, it
+          focuses on structured layouts, hover effects, and user-friendly
+          design. It highlights practical use of lists, forms, and consistent
+          spacing in web page styling.
+        </p>
+      </article>
+    </section>
+
+    <hr />
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your name"
+          required
+        />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your email"
+          required
+        />
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <button id="topBtn">⬆ Back to Top</button>
+  </body>
+</html>
